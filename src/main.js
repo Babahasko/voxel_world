@@ -1,6 +1,6 @@
-import {createScene, renderer, camera} from './sceneSetup'
-import { setBackgroundColor } from './colorManager.js';
-import { createCube } from './shapeCreator';
+import {createScene, renderer, camera} from './scene/sceneSetup'
+import { setBackgroundColor } from './colors/colorManager.js';
+import { createCube } from './shapes/shapeCreator';
 
 // Установка сценыы
 const scene = createScene();
